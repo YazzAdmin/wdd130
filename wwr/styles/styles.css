@@ -1,9 +1,6 @@
-@import
-
-body{
+body {
     max-width: 1600px;
-    margin:0 auto;
-    font-size: 22px;
+
 }
 
 
@@ -15,6 +12,7 @@ p {
  #content {
     margin:0 auto;
  } 
+
  nav a {
     text-align: center;
     color: #CAF0F8;
@@ -32,11 +30,10 @@ p {
     text-align: center
  }
 
- main section img
- {
-    text-align: center
-    box-sizing: center border-box;
+ main section img {
+    box-sizing: border-box;
  }
+
  #background {
     height: 725px;
 }
