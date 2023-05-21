@@ -35,7 +35,7 @@ p {
  main section img
  {
     text-align: center
-    box-sizing; border-box:
+    box-sizing: center border-box;
  }
  #background {
     height: 725px;
