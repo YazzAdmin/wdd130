@@ -11,8 +11,7 @@ p {
 
  #content {
     margin:0 auto;
-    max-width: 1600px;
-    text-align: center;
+
  } 
 
  nav a {
@@ -22,18 +21,23 @@ p {
     padding: 35px;
 }    
 
- #hero-msg h1, #hero-msg h4 {
-    text-align: center
+ #hero-msg h1{
+    text-align: center;
     
+ }
+
+ #hero-msg h4 {
+    text-align: center;
  }
 
  .button-box
  {
-    text-align: center
+    text-align: center;
  }
 
  main section img {
     box-sizing: border-box;
+    text-align: center
  }
 
  #background {
@@ -43,8 +47,7 @@ p {
 body {
     background-color: #00b4d8; 
     font-family: Serif, Serif 4, Instrument Serif,Wix Madefor Display; 
-    max-width: 1600px;
-    margin:0 auto;
+    margin:0;
     font-size: 22px;
     padding: 0;
 }
