@@ -11,6 +11,8 @@ p {
 
  #content {
     margin:0 auto;
+    max-width: 1600px;
+    text-align: center;
  } 
 
  nav a {
