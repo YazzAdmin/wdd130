@@ -22,7 +22,7 @@ nav a {
     text-align: center;
     text-decoration: none;
     padding: 35px;
-    color: white;
+    color: #FEFEE3;
   }
 
 #content {
@@ -32,8 +32,8 @@ nav a {
 header{
   display: grid;
   grid-template-columns: 105px auto;
-  background-color: #FFC9B9(20,30,13, .7); 
-  text-decoration-color:#FEFEE3
+  background-color: #FFC9B9; 
+  text-decoration-color:#FEFEE3;
 }
 .main {
   text-align: center;
@@ -78,7 +78,7 @@ img {
 .home-title {
   text-align: center;
   color: #2CA58D;
-  font-family: Amatic SC;
+  font-family: "Amatic SC";
   font-size: 2em;
   margin-top: 100px;
 
@@ -113,51 +113,71 @@ img {
       margin: 200px 0;
       grid-column: 2/4;
       grid-row: 2/3;
-      width: 500px;
-}
-    
+      width: 505px;  
+      display: grid;
+      padding: 5px;
+      border-radius: 4px;
+      }
+
+
 
 .monument-card{
       margin: 200px 0;
       grid-column: 5/7;
       grid-row: 2/3;
-      width: 500px;
-      
-}
-.snow-card{
-  margin: 200px 0;
-  grid-column: 8/10;
-  grid-row: 2/3;
-  width: 500px;
-  
+      width:253px;
+      display: grid;
+      padding: 5px;
+      border-radius: 4px;
 }
 
+.snow-card{
+      margin: 200px 0;
+      grid-column: 8/10;
+      grid-row: 2/3;
+      width: 502px;
+      display: grid;
+      padding: 5px;
+      border-radius: 4px;
+}
+
+
+
 .rodadas{
-  margin: 60px;
-  grid-column: 4/9;
-  grid-row: 4/7;
-  width: 80%;
-  height: auto;
+  margin: 100px;
+  grid-column: 6/9;
+  grid-row: 4/10;
+  width: 115%;
+  float: left;
+  
+  
   }
 
 
 .rodadas-msg {
-  text-align: right;
+  
   font-size: 1.2em;
   color: #2CA58D;
   margin-top: 100px;
-  font-family: courgette; 
-  grid-column: 2/4;
-  grid-row: 4/5;
-  padding: 0;
-  
+  font-family: "courgette"; 
+  grid-column: 2/7;
+  grid-row: 4/6;
+  padding: 4px;
+  max-width: 800px;
+  grid-template-columns: 300px 1fr;
+  gap: 1rem;
+  text-align: center;
+  display: block;
+  padding-top: 15%;
+  float:left;
+  text-size-adjust: 13;
 }
 
 
-#p {
-  font-family: Amatic SC;
+.rodadas-msg h2 {
+  font-family: "Amatic SC";
   font-size: 1.2em;
-  color: #FEFEE3;
+  color: #694A38;
 }
 footer {
       background-color: #694A38;
