@@ -150,7 +150,6 @@ img {
   width: 115%;
   float: left;
   
-  
   }
 
 
@@ -188,3 +187,28 @@ footer {
       align-items: center;
       color: #2CA58D;
     }
+added back fourth
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  }
+    
+a:hover {
+  background-color: #2CA58D;
+  color: black;
+    }
+    
+.previous {
+  background-color: #694A38;
+  color: black;
+    }
+    
+  .next {
+  background-color: #FEFEE3;
+  color: #694A38;
+    }
+    
+.round {
+      border-radius: 50%;
+}    
