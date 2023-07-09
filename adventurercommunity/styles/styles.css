@@ -69,7 +69,7 @@ img {
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 4px;
   }
 
 .logo {
@@ -115,7 +115,7 @@ img {
       margin: 200px 0;
       grid-column: 2/4;
       grid-row: 2/3;
-      width: 505px;  
+      width: 515px;  
       display: grid;
       padding: 5px;
       border-radius: 4px;
@@ -125,19 +125,19 @@ img {
 
 .monument-card{
       margin: 200px 0;
-      grid-column: 5/7;
+      grid-column: 6/8;
       grid-row: 2/3;
-      width:253px;
+      width:265px;
       display: grid;
-      padding: 5px;
-      border-radius: 4px;
+      padding: 3px;
+      border-radius: 3px;
 }
 
 .snow-card{
       margin: 200px 0;
       grid-column: 8/10;
       grid-row: 2/3;
-      width: 502px;
+      width: 528px;
       display: grid;
       padding: 5px;
       border-radius: 4px;
@@ -147,9 +147,9 @@ img {
 
 .rodadas{
   margin: 100px;
-  grid-column: 6/9;
+  grid-column: 7/9;
   grid-row: 4/10;
-  width: 115%;
+  width: 120%;
   float: left;
   
   }
@@ -164,12 +164,12 @@ img {
   grid-column: 2/7;
   grid-row: 4/6;
   padding: 4px;
-  max-width: 800px;
+  max-width: 850px;
   grid-template-columns: 300px 1fr;
   gap: 1rem;
   text-align: center;
   display: block;
-  padding-top: 15%;
+  padding-top: 10%;
   float:left;
   text-size-adjust: 13px;
 }
@@ -226,13 +226,14 @@ second page
   grid-column: 2/3;
   grid-row: 1/3;
   border-radius: 4px;
-    }   
 
+}   
 
 .fireworks-card{
   grid-column: 3/4;
   grid-row: 1/3;
   border-radius: 4px;
+  padding-left: 9.8%;
 
 }
 
@@ -240,18 +241,16 @@ second page
   grid-column: 4/5;
   grid-row: 1/3;
   border-radius: 4px;
-
+  padding-left: 15%;
 }
 .louvre-card{
   grid-column: 5/6;
   grid-row: 1/3;
   border-radius: 4px;
+  padding-left: 9.8%;
+  
 }
-.louvre2-card{
-  grid-column: 6/7;
-  grid-row: 1/3;
-  border-radius: 4px;
-}
+
 
 .msg h2 {
   background-color: #00b4d8;
@@ -265,11 +264,11 @@ second page
 
 .loveboat{
   margin: 200px;
-  grid-column: 1/2;
+  grid-column: 5/4;
   grid-row: 4/5;
   width: 100%;
   float: right;
-  object-position: 70%;
+  object-position: 60%;
   }
 
 
@@ -279,11 +278,11 @@ second page
   color: #2CA58D;
   margin-top: 100px;
   font-family: "courgette"; 
-  grid-column: 1/4;
+  grid-column: 2/4;
   grid-row: 4/5;
   padding: 4px;
-  max-width: 500px;
-  gap: 1rem;
+  max-width: 600px;
+  gap: 30px;
   text-align: center;
   display: block;
   padding-top: 15%;
