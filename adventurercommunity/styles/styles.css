@@ -366,11 +366,12 @@ Third
 .memories-msg {
   
   text-align: center;
-  padding: 40px;
+  padding: 45px;
   color: #2CA58D;
-  grid-column: 1/4;
+  grid-column: 3/4;
   grid-row: 1/4;
-  padding-right: 450px;
+  
+  padding: 49px;
   }
   
 
@@ -383,12 +384,12 @@ Third
 
 
 .paris{
-  margin: 213px;
-  grid-column: 3/4;
+  width: 350px;
+  grid-column: 4/5;
   grid-row: 1/4;
   float: left;
-  padding: -400px;
-  
+  padding: 37px;
+  padding-left: 80px;
   
   }
 added prev next
