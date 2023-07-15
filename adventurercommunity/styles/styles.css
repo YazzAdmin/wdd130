@@ -322,7 +322,76 @@ h2 {
   font-weight: bold;
     }
 
-added back fourth
+Third
+
+.bonds {
+  text-align: center;
+  color: #2CA58D;
+  font-family: "Amatic SC";
+  font-size: 2em;
+  margin-top: 100px;
+  
+}
+#bonds-box {
+  grid-column: 3/5;
+  grid-row: 1/4;
+  padding: 25px;
+  
+}
+#bonds{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 120px;
+  padding-right:130px;
+  
+}
+
+#bonds-msg  {
+  text-align: center;
+  font-size: 1.2em;
+  color: #2CA58D;
+  font-family: "courgette"; 
+}
+
+#bonds-msg {
+  grid-column: 1/4;
+  grid-row: 1/4;
+  padding-right: 450px;
+  
+  
+}
+#bonds h1{
+  color: #694A38;
+}
+.memories-msg {
+  
+  text-align: center;
+  padding: 40px;
+  color: #2CA58D;
+  grid-column: 1/4;
+  grid-row: 1/4;
+  padding-right: 450px;
+  }
+  
+
+.memories-msg h2 {
+  font-family: "Amatic SC";
+  font-size: 1.2em;
+  color: #694A38;
+  }
+
+
+
+.paris{
+  margin: 213px;
+  grid-column: 3/4;
+  grid-row: 1/4;
+  float: left;
+  padding: -400px;
+  
+  
+  }
+added prev next
 a {
   text-decoration: none;
   display: inline-block;
